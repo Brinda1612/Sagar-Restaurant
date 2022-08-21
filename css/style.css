@@ -52,8 +52,10 @@ h1 {
 }
 
 .con-us p {
-    width: 500px;
+    width: 400px;
     padding-left: 100px;
+    /* overflow: hidden; */
+
 }
 
 .con-us a {
@@ -188,6 +190,30 @@ h1 {
     .manu .card {
         margin-bottom: 10px;
     }
+    .con-us p{
+        font-size: small;
+        padding-left: 60px;
+        width: 250px;
+      
+    
+    }
+    .con-us .brinda {
+        height: 30px;
+        width: 30px;
+        margin-top:10px;
+       
+    }
+    .con-us h5 {
+        padding-left: 60px;
+        /* width: 200px; */
+    }
+    .n2{
+        width:fit-content;
+    }
+    .con-us .heading{
+        margin-bottom:0px ;
+    }
+    
 
 }
 
