@@ -135,6 +135,10 @@ h1 {
     object-fit: cover;
 }
 
+.services .card img {
+    width: 90px;
+}
+
 
 .card-body a {
     justify-content: end;
