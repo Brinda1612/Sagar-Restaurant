@@ -139,11 +139,21 @@ h1 {
 
 
 
-@media (min-width: 576px) { 
+@media (max-width: 324px) { 
     .col-sm-12  {
         justify-content: center;
     }
+    .welcome h1 {
+        font-size:20px;
+        text-align: center;
     }
+    .welcome hr {
+        margin: auto;
+        width: 75%;
+    }
+
+    }
+   
 
  /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
@@ -151,7 +161,7 @@ h1 {
     justify-content: center;
 }
 .welcome h1{
-    font-size:40px;
+    font-size:35px;
 }
 .footer-text{
    text-align: center;
